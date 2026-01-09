@@ -19,7 +19,7 @@ import remarkMath from "remark-math";
 import remarkSectionize from "remark-sectionize";
 import { expressiveCodeConfig, siteConfig } from "./src/config";
 import { pluginCustomCopyButton } from "./src/plugins/expressive-code/custom-copy-button.js";
-import { pluginLanguageBadge } from "./src/plugins/expressive-code/language-badge.ts";
+// import { pluginLanguageBadge } from "./src/plugins/expressive-code/language-badge.ts";
 import { AdmonitionComponent } from "./src/plugins/rehype-component-admonition.mjs";
 import { GithubCardComponent } from "./src/plugins/rehype-component-github-card.mjs";
 import { rehypeMermaid } from "./src/plugins/rehype-mermaid.mjs";
@@ -47,7 +47,7 @@ export default defineConfig({
 			animationClass: "transition-swup-", // see https://swup.js.org/options/#animationselector
 			// the default value `transition-` cause transition delay
 			// when the Tailwind class `transition-all` is used
-			containers: ["main"],
+			containers: ["main", "#right-sidebar-dynamic", "#floating-toc-wrapper"],
 			smoothScrolling: false,
 			cache: true,
 			preload: true,

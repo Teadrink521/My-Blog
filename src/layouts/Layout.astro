@@ -1,4 +1,6 @@
 ---
+import GoogleAnalytics from "@components/analytics/GoogleAnalytics.astro";
+import MicrosoftClarity from "@components/analytics/MicrosoftClarity.astro";
 import FancyboxManager from "@components/effects/FancyboxManager.astro";
 import KatexManager from "@components/effects/KatexManager.astro";
 import SakuraEffect from "@components/effects/SakuraEffect.astro";
@@ -94,31 +96,12 @@ const bannerOffset = `${BANNER_HEIGHT_EXTEND / 2}vh`;
 <!doctype html>
 <html lang={siteLang} class="bg-[var(--page-bg)] text-[14px] md:text-[16px]">
   <head>
-    <!-- Microsoft Clarity -->
-    {
-      siteConfig.analytics?.clarityId && (
-        <script
-          is:inline
-          data-swup-ignore-script
-          type="text/javascript"
-          define:vars={{ clarityId: siteConfig.analytics.clarityId }}
-        >
-          (function (c, l, a, r, i, t, y) {
-            c[a] =
-              c[a] ||
-              function () {
-                (c[a].q = c[a].q || []).push(arguments);
-              };
-            t = l.createElement(r);
-            t.async = 1;
-            t.src = "https://www.clarity.ms/tag/" + i;
-            y = l.getElementsByTagName(r)[0];
-            y.parentNode.insertBefore(t, y);
-          })(window, document, "clarity", "script", clarityId);
-        </script>
-      )
-    }
-    <!-- End Microsoft Clarity -->
+      {siteConfig.analytics?.googleAnalyticsId && (
+              <GoogleAnalytics analyticsId={siteConfig.analytics.googleAnalyticsId} />
+      )}
+      {siteConfig.analytics?.microsoftClarityId && (
+              <MicrosoftClarity clarityId={siteConfig.analytics.microsoftClarityId} />
+      )}
 
     <title>{pageTitle}</title>
 
@@ -681,6 +664,22 @@ function disableAnimation() {
       }
     });
     window.swup.hooks.on("content:replace", () => {
+      // 更新主网格布局类名
+      const gridClassCarrier = document.getElementById("grid-class-carrier");
+      if (gridClassCarrier) {
+        const gridClass = gridClassCarrier.getAttribute("data-grid-class");
+        const mainGrid = document.getElementById("main-grid");
+        if (mainGrid && gridClass) {
+
+          const currentClasses = mainGrid.className.split(" ");
+          const newClasses = currentClasses.filter(c => !c.startsWith("lg:grid-cols-") && !c.startsWith("md:grid-cols-") && !c.startsWith("grid-cols-"));
+          
+          // 添加新的网格类
+          const gridClasses = gridClass.split(" ");
+          mainGrid.className = [...newClasses, ...gridClasses].join(" ");
+        }
+      }
+
       // 只处理katex元素的容器，使用浏览器原生滚动条
       initCustomScrollbar();
       

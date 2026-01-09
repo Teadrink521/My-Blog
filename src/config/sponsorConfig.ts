@@ -12,7 +12,6 @@ export const sponsorConfig: SponsorConfig = {
 		"您的赞助将帮助我持续提供优质内容。",
 
 	// 是否显示赞助者列表
-
 	showSponsorsList: true,
 
 	// 是否在文章详情页底部显示赞助按钮
@@ -35,6 +34,14 @@ export const sponsorConfig: SponsorConfig = {
 			qrCode: "/assets/images/sponsor/wechat.png",
 			link: "",
 			description: "使用 微信 扫码赞助",
+			enabled: false,
+		},
+		{
+			name: "ko-fi",
+			icon: "simple-icons:kofi",
+			qrCode: "",
+			link: "https://ko-fi.com/cuteleaf",
+			description: "Buy a Coffee for Firefly",
 			enabled: false,
 		},
 		{

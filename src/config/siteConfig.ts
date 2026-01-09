@@ -81,6 +81,9 @@ export const siteConfig: SiteConfig = {
 	// 文章过期阈值（天数），超过此天数才显示"上次编辑"卡片
 	outdatedThreshold: 30,
 
+	// 是否开启分享海报生成功能
+	sharePoster: true,
+
 	// OpenGraph图片功能,注意开启后要渲染很长时间，不建议本地调试的时候开启
 	generateOgImages: false,
 
@@ -126,8 +129,10 @@ export const siteConfig: SiteConfig = {
 
 	// 统计分析
 	analytics: {
+		// Google Analytics ID
+		googleAnalyticsId: "G-P7GBNJKJKL",
 		// Microsoft Clarity ID
-		clarityId: "tx9equrgr6",
+		microsoftClarityId: "tx9equrgr6",
 	},
 
 	// 字体配置
