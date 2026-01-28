@@ -18,7 +18,7 @@
 如果你想和我交流技术问题，分享有趣的想法，或者只是想打个招呼，欢迎通过以下方式联系我：
 
 - 💻 **GitHub**: [夜雨](https://github.com/yuye54876)
-- ✉️ **Email**: [yeyu54876@gmail.com](mailto:yeyu54876@gmail.com)
+- ✉️ **Email**: [sky@sky1314.dpdns.org](mailto:sky@sky1314.dpdns.org)
 
 ---
 

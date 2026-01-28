@@ -13,13 +13,13 @@ description: "与优秀的朋友们一起成长"
 站点名称: 洛水天依
 站点描述: 华风夏韵，洛水天依。
 站点链接: https://blog.sky1314.dpdns.org
-头像链接: https://q1.qlogo.cn/g?b=qq&nk=7618557&s=640
+头像链接: https://q1.qlogo.cn/g?b=qq&nk=2351494834&s=640
 
 ```
 
 ## ✉️申请友链
 
-请将您的网站信息发送邮件至：`yeyu54876@gmail.com`
+请将您的网站信息发送邮件至：`sky@sky1314.dpdns.org`
 
 **邮件标题**：`友链申请 - [您的站点名称]`
 

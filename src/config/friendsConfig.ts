@@ -16,7 +16,7 @@ export const friendsConfig: FriendLink[] = [
 		desc: "飞萤之火自无梦的长夜亮起，绽放在终竟的明天。",
 		siteurl: "https://blog.cuteleaf.cn",
 		tags: ["Blog"],
-		weight: 10, // 权重，数字越大排序越靠前
+		weight: 9, // 权重，数字越大排序越靠前
 		enabled: true, // 是否启用
 	},
 	{
@@ -28,12 +28,12 @@ export const friendsConfig: FriendLink[] = [
 		weight: 9,
 		enabled: true,
 	},
-		{title: "Firefly Demo",
-		imgurl: "https://docs-firefly.cuteleaf.cn/logo.png",
-		desc: "Firefly主题模板预览",
-		siteurl: "https://firefly.cuteleaf.cn",
+		{title: "Tianyi Demo",
+		imgurl: "https://q1.qlogo.cn/g?b=qq&nk=2351494834&s=640",
+		desc: "Tianyi主题模板预览",
+		siteurl: "https://show.sky1314.dpdns.org",
 		tags: ["Demo Blog"],
-		weight: 8,
+		weight: 10,
 		enabled: true,
 	},
 	{

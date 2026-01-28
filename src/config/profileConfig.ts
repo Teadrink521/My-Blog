@@ -25,7 +25,7 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "Email",
 			icon: "fa6-solid:envelope",
-			url: "mailto:yeyu54876@gmail.com",
+			url: "mailto:sky@sky1314.dpdns.org",
 			showName: false,
 		},
 		{
