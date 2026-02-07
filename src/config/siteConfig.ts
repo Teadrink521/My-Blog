@@ -7,10 +7,10 @@ const SITE_LANG = "zh_CN";
 
 export const siteConfig: SiteConfig = {
 	// 站点标题
-	title: "华风夏韵",
+	title: "sky の blog",
 
 	// 站点副标题
-	subtitle: "my blog",
+	subtitle: "华风夏韵",
 
 	// 站点 URL
 	site_url: "https://blog.sky1314.dpdns.org",
@@ -146,9 +146,9 @@ export const siteConfig: SiteConfig = {
 	// 统计分析
 	analytics: {
 		// Google Analytics ID
-		googleAnalyticsId: "G-P7GBNJKJKL",
+		googleAnalyticsId: "",
 		// Microsoft Clarity ID
-		microsoftClarityId: "tx9equrgr6",
+		microsoftClarityId: "",
 	},
 
 	// 字体配置

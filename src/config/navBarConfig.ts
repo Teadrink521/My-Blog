@@ -30,9 +30,8 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				name: "GitHub",
 				url: "https://github.com/yuye54876/Tianyi",
 				external: true,
-				icon: "fa6-brands:github",
+				icon: "fa7-brands:github",
 			},
-			
 		],
 	});
 
