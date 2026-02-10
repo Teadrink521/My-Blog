@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "47b9fa65305e6d4f",
+        "id": "902700eacecea6a6",
         "type": "tabs",
         "children": [
           {
-            "id": "c8e0f072bda3c75c",
+            "id": "1910e3ba128f3086",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "posts/video.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "video"
+              "title": "新标签页"
             }
           }
         ]
@@ -180,16 +176,19 @@
       "bases:新建数据库": false
     }
   },
-  "active": "c8e0f072bda3c75c",
+  "active": "1910e3ba128f3086",
   "lastOpenFiles": [
-    "posts/my-first-blog.md",
-    "posts/markdown-tutorial.md",
-    "posts/markdown-mermaid.md",
-    "posts/markdown-extended.md",
-    "posts/katex-math-example.md",
-    "posts/firefly-layout-system.md",
     "posts/guide/index.md",
     "posts/guide/cover.webp",
+    "posts/code-examples.md",
+    "posts/draft.md",
+    "posts/firefly-layout-system.md",
+    "posts/katex-math-example.md",
+    "posts/markdown-extended.md",
+    "posts/markdown-mermaid.md",
+    "posts/markdown-tutorial.md",
+    "posts/my-first-blog.md",
+    "posts/video.md",
     "posts/images/vitepress.png",
     "posts/images/obsidian.png",
     "posts/images/masonry.webp",
