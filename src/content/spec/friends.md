@@ -13,7 +13,7 @@ description: "与优秀的朋友们一起成长"
 站点名称: 洛水天依
 站点描述: 华风夏韵，洛水天依。
 站点链接: https://blog.sky1314.dpdns.org
-头像链接: https://q1.qlogo.cn/g?b=qq&nk=2351494834&s=640
+头像链接: https://avatars.githubusercontent.com/u/165529493
 
 ```
 
