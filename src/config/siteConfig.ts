@@ -50,7 +50,7 @@ export const siteConfig: SiteConfig = {
 	favicon: [
 		{
 			// 图标文件路径
-			src: "/assets/images/shuqiantubiao.jpg",
+			src: "assets/images/shuqiantubiao.jpg",
 			// 可选，指定主题 'light' | 'dark'
 			// theme: "light",
 			// 可选，图标大小
@@ -63,11 +63,12 @@ export const siteConfig: SiteConfig = {
 		// 导航栏Logo
 		// 支持三种类型：
 		// 1. Astro图标库: { type: "icon", value: "material-symbols:home-pin-outline" }
-		// 2. 本地图片: { type: "image", value: "/assets/images/logo.webp", alt: "Firefly Logo" }
-		// 3. 网络图片: { type: "url", value: "https://example.com/logo.png", alt: "Firefly Logo" }
+		// 2. 本地图片（public目录，不优化）: { type: "image", value: "/assets/images/logo.webp", alt: "Logo" }
+		// 3. 本地图片（src目录，自动优化但会增加构建时间，推荐）: { type: "image", value: "assets/images/logo.webp", alt: "Logo" }
+		// 4. 网络图片: { type: "url", value: "https://example.com/logo.png", alt: "Logo" }
 		logo: {
 			type: "image",
-			value: "/assets/images/xiaoluo.png",
+			value: "assets/images/xiaoluo.png",
 			alt: "🍀",
 		},
 		// 导航栏标题
@@ -149,6 +150,21 @@ export const siteConfig: SiteConfig = {
 		googleAnalyticsId: "",
 		// Microsoft Clarity ID
 		microsoftClarityId: "",
+	},
+
+	// 图像优化及响应式配置
+	// 图像优化压缩只保留avif或webp
+	// 响应式图像是为在不同设备上提高性能而调整的图像。这些图像可以调整大小以适应其容器，并且可以根据访问者的屏幕尺寸和分辨率以不同的大小提供。
+	// Astro 仅能对 src 目录下的图像进行优化，src 目录下的图像越多，构建时间会越长
+	// Astro 图像文档 https://docs.astro.build/zh-cn/guides/images/
+	imageOptimization: {
+		// 输出图片格式
+		// - "avif": 仅输出 AVIF 格式（最新技术，最小体积，目前兼容性较低）
+		// - "webp": 仅输出 WebP 格式（体积适中，兼容性好）
+		// - "both": 同时输出 AVIF 和 WebP（推荐，浏览器自动选择最佳格式）
+		formats: "webp",
+		// 图片压缩质量 (1-100)，值越低体积越小但质量越差，推荐 70-85
+		quality: 85,
 	},
 
 	// 字体配置
