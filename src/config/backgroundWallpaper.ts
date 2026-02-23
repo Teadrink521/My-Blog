@@ -39,13 +39,12 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 		// 桌面背景图片（支持单张或多张随机）
 		// desktop: "assets/images/DesktopWallpaper/d1.avif",
 		desktop: [
-			"assets/images/DesktopWallpaper/109884134_p0.jpg",
-			"assets/images/DesktopWallpaper/109884134_p1.jpg",
+			"assets/images/DesktopWallpaper/yu.jpg",	
 		],
 		// 移动背景图片（支持单张或多张随机）
 		// mobile: "assets/images/MobileWallpaper/m1.avif",
 		mobile: [
-			"assets/images/MobileWallpaper/huatianyi.jpg",
+			"assets/images/MobileWallpaper/131489119_p0.jpg",
 		],
 	},
 	// Banner模式特有配置
@@ -102,7 +101,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			},
 			url: {
 				// 桌面端原始艺术品或艺术家页面的 URL 链接
-				desktop: "https://www.pixiv.net/artworks/109884134",
+				desktop: "https://www.pixiv.net/users/14292311",
 				// 移动端原始艺术品或艺术家页面的 URL 链接
 				mobile: "https://www.pixiv.net/users/14292311",
 				//留一下主要壁纸来源的档
