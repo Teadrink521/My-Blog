@@ -96,13 +96,13 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			},
 			text: {
 				// 桌面端要显示的来源文本
-				desktop: "Pixiv - Yolanda",
+				desktop: "Pixiv - MORI森",
 				// 移动端要显示的来源文本
 				mobile: "Pixiv - MORI森",
 			},
 			url: {
 				// 桌面端原始艺术品或艺术家页面的 URL 链接
-				desktop: "https://www.pixiv.net/artworks/95681846",
+				desktop: "https://www.pixiv.net/artworks/109884134",
 				// 移动端原始艺术品或艺术家页面的 URL 链接
 				mobile: "https://www.pixiv.net/users/14292311",
 				//留一下主要壁纸来源的档
