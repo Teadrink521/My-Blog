@@ -68,6 +68,12 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				external: true,
 				icon: "fa7-brands:github",
 			},
+			{
+				name: "网站状态",
+                url: "https://status.sky1314.dpdns.org/",
+                external: true,
+                icon: "material-symbols:ecg-heart",
+			},
 		],
 	});
 
