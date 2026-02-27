@@ -3,6 +3,7 @@
 title: 一段灿烂的故事，一个冬日的回忆
 published: 2026-01-20
 description: 《Narcissus》推后感
+image: ./Narcissu_cover.jpg
 tags: [Gal,随笔]
 category: Gal
 draft: false

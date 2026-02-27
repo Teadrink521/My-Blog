@@ -1,13 +1,14 @@
 ---
 title: 用Firefly主题建立你自己的blog
 published: 2025-12-19
-updated: 2025-12-21
-pinned: true
+updated: 2026-02-27
+pinned: false
 description: 利用Firefly主题模和cloudfare pages建立自己blog的一些流程。
-tags: [前端, 开发]
+tags:
+  - 前端
+  - 开发
 category: 开发
 draft: false
-
 ---
 
 ## 准备工作
@@ -22,13 +23,16 @@ draft: false
 
 ## Fork项目到自己仓库
 
-::github{repo="CuteLeaf/Firefly"}  
-
-### 克隆仓库到本地
-
+当然你要想的话也可以直接fork [我的blog的模板](https://github.com/yuye54876/Tianyi) 但是会比上游慢两三天
+::github{repo="CuteLeaf/Firefly"}      
+::github{repo="yuye54876/Tianyi"}  
+### 克隆仓库到本地"}  
+###### Firefly  
 `git clone https://github.com/you-github-name/Firefly.git ` （记得改成你自己的用户名）   
 `cd Firefly`  
-
+###### Tianyi
+`git clone https://github.com/you-github-name/Tianyi.git`（记得改成你自己的用户名）                     
+`cd Tianyi`  
 #### 环境要求
 
 Node.js ≤ 22  
