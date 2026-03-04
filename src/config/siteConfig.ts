@@ -7,13 +7,13 @@ const SITE_LANG = "zh_CN";
 
 export const siteConfig: SiteConfig = {
 	// 站点标题
-	title: "Sky Blog",
+	title: "茶酒的Blog",
 
 	// 站点副标题
 	subtitle: "华风夏韵",
 
 	// 站点 URL
-	site_url: "https://blog.sky1314.dpdns.org",
+	site_url: "https://blog.teadrink.me/",
 
 	// 站点描述
 	description:

@@ -1,6 +1,6 @@
 # 关于我 / About Me
 
-你好！我是 **SKY** ，一个在数字世界中默默无闻的一粒种子。
+你好！我是 **茶酒** ，一个在数字世界中默默无闻的一粒种子。
 
 ## 🛠️ 关于本站
 
@@ -17,8 +17,8 @@
 
 如果你想和我交流技术问题，分享有趣的想法，或者只是想打个招呼，欢迎通过以下方式联系我：
 
-- 💻 **GitHub**: [夜雨](https://github.com/yuye54876)
-- ✉️ **Email**: [sky@sky1314.dpdns.org](mailto:sky@sky1314.dpdns.org)
+- 💻 **GitHub**: [茶酒](https://github.com/teadrink521)
+- ✉️ **Email**: [teaordrink@qq.com](mailto:teaordrink@qq.com)
 
 ---
 

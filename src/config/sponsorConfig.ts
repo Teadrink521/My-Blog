@@ -69,13 +69,11 @@ export const sponsorConfig: SponsorConfig = {
 			name: "天依",
 			amount: "¥52",
 			date: "2025-07-12",
-			message: "感谢天依宝宝的小笼包！",
 		},
 		{
 			name: "Hanstune Miku",
 			amount: "¥39",
 			date: "2025-08-31",
-			message: "Mikudayo！",
 		},
 
 		// 示例：匿名赞助者
@@ -83,7 +81,6 @@ export const sponsorConfig: SponsorConfig = {
 			name: "匿名用户",
 			amount: "观看量*n",
 			date: "2025-08-31",
-			message: "感谢陌生人的停留！"
 		},
 	],
 };

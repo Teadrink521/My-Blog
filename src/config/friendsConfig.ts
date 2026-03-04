@@ -20,10 +20,10 @@ export const friendsPageConfig: FriendsPageConfig = {
 // 友链配置
 export const friendsConfig: FriendLink[] = [
 	{
-		title: "Sky Blog",
+		title: "茶酒のBlog",
 		imgurl: "https://avatars.githubusercontent.com/u/165529493",
 		desc: "华风夏韵 洛水天依！",
-		siteurl: "https://blog.sky1314.dpdns.org/",
+		siteurl: "https://blog.teadrink.me/",
 		tags: ["Blog"],
 		weight: 10,
 		enabled: false, 

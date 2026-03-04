@@ -9,7 +9,7 @@ export const profileConfig: ProfileConfig = {
 	avatar: "https://avatars.githubusercontent.com/u/165529493",
 
 	// 名字
-	name: "SKY",
+	name: "茶酒",
 	// 个人签名
 	bio: "世界好大，我想去看看。",
 
