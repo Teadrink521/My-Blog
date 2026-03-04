@@ -54,14 +54,6 @@ export const friendsConfig: FriendLink[] = [
 		weight: 9,
 		enabled: true,
 	},
-		{title: "Tianyi Demo",
-		imgurl: "https://q1.qlogo.cn/g?b=qq&nk=2351494834&s=640",
-		desc: "Tianyi主题模板预览",
-		siteurl: "https://show.sky1314.dpdns.org",
-		tags: ["Theme"],
-		weight: 8,
-		enabled: true,
-	},
 	{
 		title: "Firefly Docs",
 		imgurl: "https://docs-firefly.cuteleaf.cn/logo.png",
@@ -69,7 +61,7 @@ export const friendsConfig: FriendLink[] = [
 		siteurl: "https://docs-firefly.cuteleaf.cn",
 		tags: ["Docs"],
 		weight: 8,
-		enabled: false, 
+		enabled: true, 
 	},
 ];
 
