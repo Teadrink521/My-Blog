@@ -63,17 +63,17 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		// 子菜单
 		children: [
 			{
-				name: "GitHub",
-				url: "https://github.com/yuye54876/Tianyi",
-				external: true,
-				icon: "fa7-brands:github",
-			},
-			{
 				name: "网站状态",
-                url: "https://status.sky1314.dpdns.org/",
+                url: "https://status.teadrink.me/",
                 external: true,
                 icon: "material-symbols:ecg-heart",
 			},
+			// {
+			// 	name: "GitHub",
+			// 	url: "https://github.com/Teadrink521",
+			// 	external: true,
+			// 	icon: "fa7-brands:github",
+			// },
 		],
 	});
 

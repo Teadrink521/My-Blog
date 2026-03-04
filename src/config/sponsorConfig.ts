@@ -56,7 +56,7 @@ export const sponsorConfig: SponsorConfig = {
 			name: "Github",
 			icon: "fa7-brands:github",
 			qrCode: "",
-			link: "https://github.com/yuye54876/Tianyi",
+			link: "https://github.com/Teadrink521/My-Blog",
 			description: "点个Star就是最大的支持",
 			enabled: true,
 		},
