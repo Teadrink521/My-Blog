@@ -68,6 +68,12 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
                 external: true,
                 icon: "material-symbols:ecg-heart",
 			},
+			{
+				name: "开往",
+                url: "https://www.travellings.cn/go.html",
+                external: true,
+                icon: "fa7-solid:train-subway",
+			},
 			// {
 			// 	name: "GitHub",
 			// 	url: "https://github.com/Teadrink521",
