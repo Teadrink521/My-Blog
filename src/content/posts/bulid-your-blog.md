@@ -3,6 +3,7 @@ title: 用Firefly主题建立你自己的blog
 published: 2025-12-19
 updated: 2026-02-27
 pinned: false
+image: "./images/bulid-your-blog.png"
 description: 利用Firefly主题模和cloudfare pages建立自己blog的一些流程。
 tags:
   - 前端
@@ -10,7 +11,6 @@ tags:
 category: 开发
 draft: false
 ---
-
 ## 准备工作
 
 首先，我们需要有几个东西  
@@ -26,7 +26,7 @@ draft: false
 当然你要想的话也可以直接fork [我的blog的模板](https://github.com/yuye54876/Tianyi) 但是会比上游慢两三天
 ::github{repo="CuteLeaf/Firefly"}      
 ::github{repo="yuye54876/Tianyi"}  
-### 克隆仓库到本地"}  
+### 克隆仓库到本地"
 ###### Firefly  
 `git clone https://github.com/you-github-name/Firefly.git ` （记得改成你自己的用户名）   
 `cd Firefly`  
@@ -66,9 +66,9 @@ pnpm ≤ 9
 #### 下面请按照图片步骤操作
 
 构建>计算与AI>Workers and Pages  
-![创建应用项目](./2.png)
-![Get started](./3.png)
-![导入现有Git存储库](./4.png)
+![创建应用项目](./images/bulid-your-blog-1.png)
+![Get started](./images/bulid-your-blog-2.png)
+![导入现有Git存储库](./images/bulid-your-blog-3.png)
 然后让cloudfare与github绑定一下，选择你fork的仓库进行构建。
 
 > 框架预设： `Astro`

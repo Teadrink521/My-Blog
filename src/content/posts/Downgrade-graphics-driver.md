@@ -2,7 +2,7 @@
 title: 卸载显卡驱动的几件事
 published: 2026-02-25
 description: 使用Display Driver Uninstaller卸载显卡驱动的经历以及遇到的一些问题
-image: ./Downgrade-graphics-driver-1.png
+image: ./images/Downgrade-graphics-driver-1.png
 tags:
   - 电脑知识
 category: 电脑知识
@@ -13,7 +13,7 @@ draft: false
 
 ---
 ## 起因   
-今天，我的电脑突然就黑屏重启了，在我和哈基米的严肃讨论下，用到了 [BlueScreenView](https://www.bleepingcomputer.com/download/bluescreenview/)  这个软件看一看崩溃日志，如图![](Downgrade-graphics-driver-1.png)
+今天，我的电脑突然就黑屏重启了，在我和哈基米的严肃讨论下，用到了 [BlueScreenView](https://www.bleepingcomputer.com/download/bluescreenview/)  这个软件看一看崩溃日志，如图![](images/Downgrade-graphics-driver.png)
 ## 分析问题  
 得出是我前几天为了玩本地AI绘画（显卡驱动版本低，部分程序运行不了）而更新显卡驱动导致的问题 ~~（当时直接在英伟达官网更新来着，忘了华硕管家这回事了）~~    
 
@@ -28,7 +28,7 @@ draft: false
 
 ## 准备工作   
 OK，看来这得重装驱动了，哈基米给我推荐了[ddu这个卸载工具](https://www.guru3d.com/download/display-driver-uninstaller-download/)  下载完成后，接下来去下载一个稳定版本的驱动，可以考虑显卡驱动更新前的，我去华硕的官网找了适合自己的版本（V32.0.15.7324）  
-![](Downgrade-graphics-driver-2.png)
+![](images/Downgrade-graphics-driver-1.png)
 
 然后哈基米让我进安全模式，我还是好奇为什么要进安全模式，
 #### 什么要进安全模式
@@ -69,7 +69,7 @@ OK，那就进安全模式吧，事情到了这里本应该是进安全模式，
 
 对啊，既然pin加载不出来，那我把云端账户舍弃，只弄成本地账户不得了，Ok，接下来的一切就很顺利了（真的吗？）   
 ## 开始实操  
-我的ddu不知道为啥变成意大利语了（我还以为是英文，但是我啥也看不懂，喂给哈基米还被嘲笑了）  ![](Pasted%20image%2020260227172344.png)
+我的ddu不知道为啥变成意大利语了（我还以为是英文，但是我啥也看不懂，喂给哈基米还被嘲笑了）  ![](images/Downgrade-graphics-driver-2.png)
 OK，接下来的一切就真的很顺利的，卸载以后重启，然后安装驱动，然后再次重启，在任务管理器可以看到GPU驱动已经降回旧版本了，联网，打开nvidia，发现nvidia控制面板没有自己下载，在微软商店里面也下载不了（一直卡在准备中），这里提供一个微软商店抽风的通用解决办法，直接在浏览器搜索nvidia Control Panel，发现第一个弹出来的是微软商店网页版的，点进去不跳转到微软商店而是直接下载，运行exe，OK，成功安装。到这一步，我的折腾就算告一段落了，总共花了两个小时
 ## 总结
 这次经历其实也是给我了一些感触的，
