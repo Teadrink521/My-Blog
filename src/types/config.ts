@@ -362,6 +362,7 @@ export type WidgetComponentType =
 	| "sidebarToc"
 	| "advertisement"
 	| "stats"
+	| "umamiStats"
 	| "calendar"
 	| "music";
 
