@@ -96,17 +96,6 @@ const siteLang = lang.replace("_", "-");
 <html lang={siteLang} class="bg-(--page-bg) text-[14px] md:text-[16px]">
   <head>
     <meta charset="UTF-8" />
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VMTTSXZR2Z"></script>
-    <script>
-      const analyticsWindow = window as unknown as { dataLayer: unknown[] };
-      analyticsWindow.dataLayer = analyticsWindow.dataLayer || [];
-      function gtag(...args: unknown[]) {
-        analyticsWindow.dataLayer.push(args);
-      }
-      gtag("js", new Date());
-      gtag("config", "G-VMTTSXZR2Z");
-    </script>
     {siteConfig.analytics?.googleAnalyticsId && (
             <GoogleAnalytics analyticsId={siteConfig.analytics.googleAnalyticsId} />
     )}
