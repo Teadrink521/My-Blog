@@ -28,9 +28,9 @@ const { class: className, style } = Astro.props;
 <script>
 // 以后如果要改 Umami 的地址、站点 ID 或分享令牌，只改下面这个配置就行
 const UMAMI_CONFIG = {
-    baseUrl: 'https://cloud.umami.is/analytics/us/api',
+    baseUrl: 'https://cloud.umami.is/analytics/eu/api',
     websiteId: 'c02f1b0d-dcc6-4a07-8d01-8ba5032a63ea',
-    shareToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzaGFyZUlkIjoiNWE1MTdhMTctNzExMC00ZjU0LWFjYzQtNGIyYTQxN2JiMGNmIiwid2Vic2l0ZUlkIjoiYzAyZjFiMGQtZGNjNi00YTA3LThkMDEtOGJhNTAzMmE2M2VhIiwicGFyYW1ldGVycyI6eyJ1dG0iOmZhbHNlLCJnb2FscyI6ZmFsc2UsImV2ZW50cyI6ZmFsc2UsImNvbXBhcmUiOmZhbHNlLCJmdW5uZWxzIjpmYWxzZSwicmV2ZW51ZSI6ZmFsc2UsImpvdXJuZXlzIjpmYWxzZSwib3ZlcnZpZXciOnRydWUsInJlYWx0aW1lIjpmYWxzZSwic2Vzc2lvbnMiOmZhbHNlLCJicmVha2Rvd24iOmZhbHNlLCJyZXRlbnRpb24iOmZhbHNlLCJhdHRyaWJ1dGlvbiI6ZmFsc2V9LCJpYXQiOjE3NzI3ODA5ODB9.zC9og9yEgUJnxXqc4o-IzvIns1SrgVQaIrU1X_uUE0A'};
+    shareToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzaGFyZUlkIjoiZjVlNWJlZTgtM2YyMy00MDg2LTg3ZmEtOGQ4MGJiMThjNjRjIiwid2Vic2l0ZUlkIjoiYzAyZjFiMGQtZGNjNi00YTA3LThkMDEtOGJhNTAzMmE2M2VhIiwicGFyYW1ldGVycyI6eyJ1dG0iOmZhbHNlLCJnb2FscyI6ZmFsc2UsImV2ZW50cyI6dHJ1ZSwiY29tcGFyZSI6ZmFsc2UsImZ1bm5lbHMiOmZhbHNlLCJyZXZlbnVlIjpmYWxzZSwiam91cm5leXMiOmZhbHNlLCJvdmVydmlldyI6dHJ1ZSwicmVhbHRpbWUiOnRydWUsInNlc3Npb25zIjpmYWxzZSwiYnJlYWtkb3duIjpmYWxzZSwicmV0ZW50aW9uIjpmYWxzZSwiYXR0cmlidXRpb24iOmZhbHNlfSwiaWF0IjoxNzcyNzg4ODUwfQ.npPh2b3StsZYpMLKPIz7aSFzsU7SwdBZqWj1mcZwmC0'};
 
 function formatNumber(num: number): string {
     if (num >= 1000000) {
